@@ -29,6 +29,7 @@ int main()
         for (int j = 0; j < 3; j++)
         {
             cout << trans_mat[i][j] << "\t";
+            cout<< trans_mat[j][i] << "\t";
         }
         cout << endl;
     }
